@@ -1,0 +1,34 @@
+{
+  "name": "brainlab-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@portabletext/react": "^3.2.0",
+    "@sanity/client": "^6.28.0",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.76.0",
+    "next": "^16.2.7",
+    "next-sanity": "^9.8.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-is": "^19.2.7",
+    "sanity": "^3.76.0",
+    "styled-components": "^6.4.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

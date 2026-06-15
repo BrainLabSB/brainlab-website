@@ -1,12 +1,13 @@
-/**
- * Sanity Studio accessibile all'URL /studio
- * Proteggi questo percorso con autenticazione su Vercel (Vercel Authentication)
- * oppure tramite middleware Next.js prima di andare in produzione.
- */
-import { NextStudio } from "next-sanity/studio";
+'use client'
+import dynamic from "next/dynamic";
 import config from "../../../../sanity.config";
 
-export const dynamic = "force-dynamic";
+export const dynamic_ = "force-dynamic";
+
+const NextStudio = dynamic(
+  () => import("next-sanity/studio").then((mod) => mod.NextStudio),
+  { ssr: false }
+);
 
 export default function StudioPage() {
   return <NextStudio config={config} />;

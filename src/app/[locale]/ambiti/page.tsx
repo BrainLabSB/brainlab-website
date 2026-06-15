@@ -124,7 +124,7 @@ export default async function AmbitiPage({ params }: { params: Promise<{ locale:
   return (
     <>
       {/* ── HERO ── */}
-      <section className="section-dark" style={{ padding: "9rem 3rem 7rem" }}>
+      <section className="section-dark section-hero">
         <div style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           <div className="section-tag">{hero.tag}</div>
           <h1 style={{ fontSize: "clamp(2.4rem,5vw,4rem)", fontWeight: 800, letterSpacing: "-0.04em", lineHeight: 1.05, margin: "0.75rem 0 1.25rem", color: "var(--dark-text)", whiteSpace: "pre-line" }}>
@@ -139,7 +139,7 @@ export default async function AmbitiPage({ params }: { params: Promise<{ locale:
       {/* ── DOMAINS ── */}
       {domains.map((domain, i) => (
         <section key={domain.title} className={i % 2 === 0 ? "section-light" : "section-dark"}>
-          <div style={{ maxWidth: "var(--container)", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "start" }}>
+          <div className="r-2col" style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
 
             {/* Left: title + description + tags */}
             <div>

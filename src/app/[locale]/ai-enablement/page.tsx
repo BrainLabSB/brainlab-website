@@ -202,7 +202,7 @@ export default async function AIEnablementPage({ params }: { params: Promise<{ l
   return (
     <>
       {/* ── HERO ── */}
-      <section className="section-dark" style={{ padding: "9rem 3rem 7rem" }}>
+      <section className="section-dark section-hero">
         <div style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", fontSize: "0.65rem", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase", color: "var(--primary)", background: "rgba(0,110,183,0.1)", border: "1px solid rgba(0,110,183,0.2)", padding: "0.4rem 0.9rem", borderRadius: "var(--radius-pill)", marginBottom: "1.25rem" }}>
             <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--primary)", display: "inline-block" }} />
@@ -219,7 +219,7 @@ export default async function AIEnablementPage({ params }: { params: Promise<{ l
 
       {/* ── INTRO + STATS ── */}
       <section className="section-light">
-        <div style={{ maxWidth: "var(--container)", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "start" }}>
+        <div className="r-2col" style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           <div>
             <h2 style={{ fontSize: "clamp(1.5rem,2.5vw,2rem)", fontWeight: 700, letterSpacing: "-0.03em", lineHeight: 1.2, color: "var(--light-text)", marginBottom: "1.5rem" }}>
               {intro.title}
@@ -272,7 +272,7 @@ export default async function AIEnablementPage({ params }: { params: Promise<{ l
               {l === "it" ? "In vigore" : "In force"}
             </span>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "start", marginBottom: "3rem" }}>
+          <div className="r-2col" style={{ marginBottom: "3rem" }}>
             <div>
               <h2 style={{ fontSize: "clamp(1.6rem,2.5vw,2.2rem)", fontWeight: 700, letterSpacing: "-0.03em", lineHeight: 1.15, color: "var(--light-text)", marginBottom: "1.25rem", whiteSpace: "pre-line" }}>
                 {f.aiAct.title}
@@ -321,7 +321,7 @@ export default async function AIEnablementPage({ params }: { params: Promise<{ l
           <h2 className="section-title" style={{ color: "var(--dark-text)", marginBottom: "3rem" }}>
             {l === "it" ? "Quattro percorsi, un obiettivo." : "Four programs, one goal."}
           </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
+          <div className="r-2col-sm">
             {programs.map((program, i) => (
               <div key={i} style={{ padding: "2.5rem", borderRadius: "var(--radius)", border: "1px solid var(--light-border)", background: "var(--dark-card)", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
                 <div style={{ width: 44, height: 44, borderRadius: "var(--radius-sm)", background: "rgba(0,110,183,0.12)", border: "1px solid rgba(0,110,183,0.15)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--primary)" }}>

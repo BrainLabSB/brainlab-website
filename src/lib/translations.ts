@@ -18,7 +18,7 @@ export const nav = {
     models: "Modelli",
     enablement: "AI Enablement",
     work: "Lavori",
-    about: "Chi siamo",
+    about: "Azienda",
     cta: "Inizia un progetto",
   },
 } as const;

@@ -97,7 +97,7 @@ export default async function ComeLavoriamoPage({ params }: { params: Promise<{ 
   return (
     <>
       {/* ── HERO ── */}
-      <section className="section-dark" style={{ padding: "9rem 3rem 7rem" }}>
+      <section className="section-dark section-hero">
         <div style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           <div className="section-tag">{hero.tag}</div>
           <h1 style={{ fontSize: "clamp(2.4rem,5vw,4rem)", fontWeight: 800, letterSpacing: "-0.04em", lineHeight: 1.05, margin: "0.75rem 0 1.25rem", color: "var(--dark-text)", whiteSpace: "pre-line" }}>
@@ -151,7 +151,7 @@ export default async function ComeLavoriamoPage({ params }: { params: Promise<{ 
             <h2 className="section-title" style={{ color: "var(--light-text)" }}>{f.modelsTitle}</h2>
           </div>
         </div>
-        <div style={{ maxWidth: "var(--container)", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
+        <div className="r-2col-sm" style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           {models.map((m, i) => (
             <div key={i} style={{ padding: "2.5rem", borderRadius: "var(--radius)", border: "1px solid var(--light-border)", background: "var(--light-card)", display: "flex", flexDirection: "column", gap: "1rem" }}>
               <h3 style={{ fontSize: "1.2rem", fontWeight: 700, color: "var(--light-text)", letterSpacing: "-0.02em" }}>{m.title}</h3>

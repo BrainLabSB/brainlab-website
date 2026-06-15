@@ -636,6 +636,27 @@ img { max-width: 100%; height: auto; display: block; }
 /* =============================================
    Responsive
    ============================================= */
+
+/* ── Responsive utilities ── */
+.section-hero { padding-top: 9rem; padding-bottom: 7rem; }
+.r-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+.r-2col-sm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-hero { padding-top: 5rem; padding-bottom: 4rem; }
+  .r-2col { grid-template-columns: 1fr; gap: 2.5rem; }
+  .r-2col-sm { grid-template-columns: 1fr; gap: 1rem; }
+}
+
 @media (max-width: 1024px) {
   .stats-bar { grid-template-columns: repeat(2, 1fr); padding: 0 1.5rem; }
   .stat-item:nth-child(2) { border-right: none; }

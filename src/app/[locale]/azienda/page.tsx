@@ -118,7 +118,7 @@ export default async function AziendaPage({ params }: { params: Promise<{ locale
   return (
     <>
       {/* ── HERO ── */}
-      <section className="section-dark" style={{ padding: "9rem 3rem 7rem" }}>
+      <section className="section-dark section-hero">
         <div style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           <div className="section-tag">{hero.tag}</div>
           <h1 style={{ fontSize: "clamp(2.8rem,6vw,5rem)", fontWeight: 800, letterSpacing: "-0.05em", lineHeight: 1.0, margin: "0.75rem 0 1.5rem", color: "var(--dark-text)", whiteSpace: "pre-line" }}>
@@ -132,7 +132,7 @@ export default async function AziendaPage({ params }: { params: Promise<{ locale
 
       {/* ── MISSION ── */}
       <section className="section-light">
-        <div style={{ maxWidth: "var(--container)", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "6rem", alignItems: "start" }}>
+        <div className="r-2col" style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           <div>
             <div className="section-tag">{f.missionTag}</div>
             <h2 style={{ fontSize: "clamp(1.6rem,2.5vw,2.2rem)", fontWeight: 700, letterSpacing: "-0.03em", lineHeight: 1.15, color: "var(--light-text)", marginBottom: "2rem" }}>
@@ -168,7 +168,7 @@ export default async function AziendaPage({ params }: { params: Promise<{ locale
           <h2 className="section-title" style={{ marginBottom: "3rem" }}>
             {l === "it" ? "Quattro principi operativi." : "Four operating principles."}
           </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
+          <div className="r-2col-sm">
             {values.map((v, i) => (
               <div key={i} style={{ padding: "2rem", borderRadius: "var(--radius)", border: "1px solid var(--dark-border)", background: "var(--dark-card)", display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <div style={{ width: 42, height: 42, borderRadius: "var(--radius-sm)", background: "rgba(0,110,183,0.12)", border: "1px solid rgba(0,110,183,0.2)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--primary)" }}>
@@ -185,7 +185,7 @@ export default async function AziendaPage({ params }: { params: Promise<{ locale
 
       {/* ── SOCIETÀ BENEFIT ── */}
       <section className="section-light">
-        <div style={{ maxWidth: "var(--container)", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "start" }}>
+        <div className="r-2col" style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           <div>
             <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--primary)", background: "var(--primary-light)", border: "1px solid rgba(0,110,183,0.2)", padding: "0.4rem 0.9rem", borderRadius: "var(--radius-pill)", marginBottom: "1.25rem" }}>
               <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--primary)", display: "inline-block" }} />

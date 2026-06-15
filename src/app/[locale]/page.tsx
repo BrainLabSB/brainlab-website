@@ -234,45 +234,6 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* ── WORK ── */}
-      <section className="section-light" id="work" style={{ background:"#eef1f5", paddingTop:"7rem" }}>
-        <div className="section-header-row reveal" style={{ maxWidth:"var(--container)", margin:"0 auto" }}>
-          <div>
-            <div className="section-tag">{c.work.tag}</div>
-            <h2 className="section-title" style={{ color:"var(--light-text)" }}>{c.work.title1}<br/>{c.work.title2}</h2>
-          </div>
-          <p className="section-desc">{c.work.desc}</p>
-        </div>
-        <div className="work-grid reveal" style={{ maxWidth:"var(--container)", margin:"0 auto" }}>
-          {caseStudies.length > 0
-            ? caseStudies.slice(0,3).map((cs)=>(
-              <Link key={cs._id} href={`/${safeLocale}/case-study/${cs.slug.current}`} className="work-card">
-                {cs.coverImage
-                  ? <div className="work-visual"><SanityImage value={cs.coverImage as Parameters<typeof SanityImage>[0]["value"]} width={400} height={160}/></div>
-                  : <div className="work-visual"><span className="work-visual-label">{cs.sector??cs.client??"Case Study"}</span></div>}
-                <div className="work-body">
-                  <h3>{cs.title}</h3>
-                  {cs.excerpt&&<p>{cs.excerpt}</p>}
-                  {cs.results?.[0]&&<div className="work-metric"><span className="work-metric-val">{cs.results[0].metric}</span><span className="work-metric-label">{cs.results[0].label}</span></div>}
-                </div>
-              </Link>
-            ))
-            : c.work.placeholders.map((cs)=>(
-              <div key={cs.title} className="work-card" style={{ cursor:"default" }}>
-                <div className="work-visual"><span className="work-visual-label">{cs.sector}</span></div>
-                <div className="work-body">
-                  <h3>{cs.title}</h3>
-                  <p>{cs.desc}</p>
-                  <div className="work-metric">
-                    <span className="work-metric-val">{cs.metric}</span>
-                    <span className="work-metric-label">{cs.label}</span>
-                  </div>
-                </div>
-              </div>
-            ))
-          }
-        </div>
-      </section>
-
       {/* ── ABOUT ── */}
       <section className="section-dark" id="about">
         <div className="reveal" style={{ maxWidth:"var(--container)", margin:"0 auto" }}>

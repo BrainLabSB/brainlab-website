@@ -127,7 +127,7 @@ export default async function AmbitiPage({ params }: { params: Promise<{ locale:
       <section className="section-dark section-hero">
         <div style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           <div className="section-tag">{hero.tag}</div>
-          <h1 style={{ fontSize: "clamp(2.4rem,5vw,4rem)", fontWeight: 800, letterSpacing: "-0.04em", lineHeight: 1.05, margin: "0.75rem 0 1.25rem", color: "var(--dark-text)", whiteSpace: "pre-line" }}>
+          <h1 style={{ fontSize: "clamp(3rem,6vw,5rem)", fontWeight: 800, letterSpacing: "-0.04em", lineHeight: 1.05, margin: "0.75rem 0 1.25rem", color: "var(--dark-text)", whiteSpace: "pre-line" }}>
             {hero.title}
           </h1>
           <p style={{ fontSize: "1.05rem", color: "var(--dark-text-sec)", lineHeight: 1.65, fontWeight: 300, maxWidth: 600 }}>

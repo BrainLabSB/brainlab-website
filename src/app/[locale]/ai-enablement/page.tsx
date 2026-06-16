@@ -306,7 +306,7 @@ export default async function AIEnablementPage({ params }: { params: Promise<{ l
               <p style={{ fontSize: "0.88rem", color: "var(--light-text-sec)", lineHeight: 1.6, fontWeight: 300, marginBottom: "0.75rem" }}>{f.aiAct.smeNote}</p>
               <p style={{ fontSize: "0.88rem", color: "var(--light-text-sec)", lineHeight: 1.6, fontWeight: 300 }}>{f.aiAct.howWeHelp}</p>
             </div>
-            <Link href={`/${l}#contatti`} className="btn-primary" style={{ whiteSpace: "nowrap", flexShrink: 0 }}>
+            <Link href="#contatti" className="btn-primary" style={{ whiteSpace: "nowrap", flexShrink: 0 }}>
               {f.aiAct.cta}
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
             </Link>
@@ -374,7 +374,7 @@ export default async function AIEnablementPage({ params }: { params: Promise<{ l
           <h2 className="section-title" style={{ marginBottom: "3rem" }}>{f.faqTitle}</h2>
           <FaqAccordion items={faqs} />
           <div style={{ marginTop: "3rem", display: "flex", justifyContent: "center" }}>
-            <Link href={`/${l}#contatti`} className="btn-primary">
+            <Link href="#contatti" className="btn-primary">
               {f.cta}
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
             </Link>

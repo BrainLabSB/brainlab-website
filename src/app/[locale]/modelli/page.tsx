@@ -278,7 +278,7 @@ export default async function ModelliPage({ params }: { params: Promise<{ locale
           <h2 className="section-title" style={{ marginBottom: "3rem" }}>{f.faqTitle}</h2>
           <FaqAccordion items={faqs} />
           <div style={{ marginTop: "3rem", display: "flex", justifyContent: "center" }}>
-            <Link href={`/${l}#contatti`} className="btn-primary">
+            <Link href="#contatti" className="btn-primary">
               {f.cta}
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
             </Link>

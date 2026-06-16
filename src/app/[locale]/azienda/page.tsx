@@ -30,6 +30,7 @@ const fallback = {
     },
     values: [
       { title: "Ship fast", desc: "Working software over perfect plans. We measure progress in weeks and deliverables, not slides and meetings. Velocity is a feature." },
+      { title: "Ship fast", desc: "Working software over perfect plans. Weeks, not quarters. We ship an MVP in the first 4 weeks or we revisit the scope." },
       { title: "Measure everything", desc: "If we can't define what success looks like before we start, we don't start. Every project begins with a clear metric and ends with a result we can point to." },
       { title: "Stay technical", desc: "No slides without code. Everyone on the team builds, tests, and ships. We stay close to the work — always." },
       { title: "Think product", desc: "Technology is the means. The product and its users are the end. We think in user journeys, not model architectures." },

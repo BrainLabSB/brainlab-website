@@ -81,8 +81,8 @@ export const home = {
       title2: "Our execution.",
       desc: "Two ways to work together — choose the model that fits your organization.",
       cards: [
-        { title: "Total Outsourcing", desc: "We own the entire project — concept, design, engineering, and delivery. You define the goals, we build the solution. Ideal when you need speed and don't have an internal AI team.", tags: ["Full ownership","Dedicated team","End-to-end"] },
-        { title: "Co-sourcing", desc: "We embed within your team — bringing AI expertise while you retain control and internal knowledge. Shared ownership, shared codebase, continuous knowledge transfer.", tags: ["Embedded team","Knowledge transfer","Shared ownership"] },
+        { title: "Total Outsourcing", desc: "We take full ownership — from concept to production. You define the goals, we handle strategy, engineering, and delivery. No internal AI team needed.", tags: ["Full ownership","Dedicated team","End-to-end"] },
+        { title: "Co-sourcing", desc: "We embed within your existing team — bringing AI expertise while you retain control and codebase ownership. Structured knowledge transfer throughout.", tags: ["Embedded team","Knowledge transfer","Shared ownership"] },
       ],
     },
     work: {
@@ -177,8 +177,8 @@ export const home = {
       title2: "La nostra execution.",
       desc: "Due modi di lavorare insieme — scegli il modello che si adatta alla tua organizzazione.",
       cards: [
-        { title: "Total Outsourcing", desc: "Siamo proprietari dell'intero progetto — concept, design, engineering e delivery. Tu definisci gli obiettivi, noi costruiamo la soluzione. Ideale quando hai bisogno di velocità e non hai un team AI interno.", tags: ["Full ownership","Team dedicato","End-to-end"] },
-        { title: "Co-sourcing", desc: "Ci integriamo nel tuo team — portando expertise AI mentre tu mantieni il controllo e la conoscenza interna. Ownership condivisa, codebase condivisa, knowledge transfer continuo.", tags: ["Team embedded","Knowledge transfer","Ownership condivisa"] },
+        { title: "Total Outsourcing", desc: "Ci prendiamo piena responsabilità — dal concept alla produzione. Tu definisci gli obiettivi, noi gestiamo strategia, engineering e delivery. Nessun team AI interno richiesto.", tags: ["Full ownership","Team dedicato","End-to-end"] },
+        { title: "Co-sourcing", desc: "Ci integriamo nel tuo team esistente — portando expertise AI mentre tu mantieni il controllo e la ownership della codebase. Knowledge transfer strutturato per tutta la durata.", tags: ["Team embedded","Knowledge transfer","Ownership condivisa"] },
       ],
     },
     work: {

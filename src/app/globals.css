@@ -868,18 +868,24 @@ img { max-width: 100%; height: auto; display: block; }
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--primary);
-  background: var(--primary-light);
-  border: 1px solid rgba(0,110,183,0.2);
+  color: #16a34a;
+  background: #f0fdf4;
+  border: 1px solid rgba(22,163,74,0.25);
   padding: 0.4rem 0.9rem;
   border-radius: var(--radius-pill);
   margin-bottom: 1rem;
 }
 .enablement-badge::before {
   content: '';
-  width: 6px; height: 6px;
-  background: var(--primary);
+  width: 7px; height: 7px;
+  background: #16a34a;
   border-radius: 50%;
+  animation: pulse-green 2s ease-in-out infinite;
+}
+@keyframes pulse-green {
+  0%   { box-shadow: 0 0 0 0 rgba(22,163,74,0.5); }
+  70%  { box-shadow: 0 0 0 7px rgba(22,163,74,0); }
+  100% { box-shadow: 0 0 0 0 rgba(22,163,74,0); }
 }
 @media (max-width: 900px) {
   .enablement-layout { grid-template-columns: 1fr; gap: 3rem; }

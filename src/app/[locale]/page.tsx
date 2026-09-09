@@ -99,11 +99,6 @@ export default async function HomePage({ params }: Props) {
         <div style={{ position: "absolute", top: "-10%", right: "-5%", width: "700px", height: "700px",
           background: "radial-gradient(circle, rgba(0,110,183,0.08) 0%, transparent 65%)", pointerEvents: "none" }} />
         <div style={{ maxWidth: "var(--container)", margin: "0 auto", width: "100%" }}>
-          <div style={{ fontSize: "0.68rem", letterSpacing: "0.06em", color: "var(--primary)", marginBottom: "2rem",
-            display: "inline-flex", alignItems: "center", gap: "0.75rem" }}>
-            <span style={{ width: "32px", height: "1px", background: "var(--primary)", display: "inline-block" }} />
-            {c.hero.tag}
-          </div>
           <h1 style={{ fontSize: "clamp(3.5rem, 7vw, 6rem)", fontWeight: 800, lineHeight: 1.02,
             letterSpacing: "-0.04em", maxWidth: "800px", marginBottom: "2rem", color: "#fff" }}>
             {c.hero.h1a}<br />{c.hero.h1b}<br />
@@ -116,10 +111,7 @@ export default async function HomePage({ params }: Props) {
               {c.hero.cta1}
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
             </Link>
-            <a href={`/${safeLocale}/#work`} className="btn-ghost">
-              {c.hero.cta2}
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
-            </a>
+
           </div>
         </div>
         <div style={{ position: "absolute", bottom: "2.5rem", left: "3rem", fontSize: "0.6rem",

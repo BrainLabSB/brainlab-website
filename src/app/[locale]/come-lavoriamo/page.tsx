@@ -19,7 +19,7 @@ interface ProcessPageData {
 
 const fallback = {
   en: {
-    hero: { tag: "How we work", title: "Your project.\nOur engine.", subtitle: "We integrate with your team or take full ownership — from concept to production, in weeks." },
+    hero: { tag: "How we work", title: "Your project.\nOur engine.", subtitle: "We integrate with your team or take full ownership dal concept alla produzione, in poche settimane." },
     steps: [
       { num: "01", name: "Concept", title: "Define the opportunity", summary: "We analyze your business context, identify high-impact AI opportunities, and define a clear project scope together.", outputs: ["AI opportunity map", "Project brief", "Success metrics"] },
       { num: "02", name: "Prototype", title: "Build fast, learn faster", summary: "Rapid, working prototypes tested with real data, real models, and your team's feedback before scaling up.", outputs: ["Working prototype", "Validation report", "Iteration plan"] },
@@ -27,23 +27,23 @@ const fallback = {
       { num: "04", name: "Deliver", title: "Ship, monitor, iterate", summary: "We ship, monitor, and iterate. Full handover or ongoing management — you choose the model that works for you.", outputs: ["Live deployment", "Monitoring setup", "Handover or retainer"] },
     ],
     models: [
-      { title: "Total Outsourcing", desc: "We own the entire project — concept, design, engineering, and delivery. You define the goals, we build the solution.", ideal: "Ideal when you need speed and don't have an internal AI team.", tags: ["Full ownership", "Dedicated team", "End-to-end"] },
-      { title: "Co-sourcing", desc: "We embed within your team — bringing AI expertise while you retain control and internal knowledge.", ideal: "Ideal when you have internal resources and want to build lasting AI capabilities.", tags: ["Embedded team", "Knowledge transfer", "Shared ownership"] },
+      { title: "Total Outsourcing", desc: "We own the entire project: concept, design, engineering, and delivery. You define the goals, we build the solution.", ideal: "Ideal when you need speed and don't have an internal AI team.", tags: ["Full ownership", "Dedicated team", "End-to-end"] },
+      { title: "Co-sourcing", desc: "We embed within your team, bringing AI expertise while you retain control and internal knowledge.", ideal: "Ideal when you have internal resources and want to build lasting AI capabilities.", tags: ["Embedded team", "Knowledge transfer", "Shared ownership"] },
     ],
     faqs: [
       { question: "How long does a typical project take?", answer: "Most projects go from kick-off to first production deployment in 6–12 weeks. We always aim for a working MVP within the first 4 weeks." },
       { question: "Do we need an internal AI team to work with you?", answer: "No. In total outsourcing mode, you only need to provide business context and feedback. In co-sourcing, your team participates actively." },
-      { question: "How do you handle data privacy and confidentiality?", answer: "We sign NDAs before any project kick-off. Data is processed only on agreed infrastructure, and we follow GDPR guidelines throughout." },
+
       { question: "What happens after the project is delivered?", answer: "We offer ongoing monitoring and iteration retainers, plus a structured handover with documentation and training." },
-      { question: "Can you work with our existing tech stack?", answer: "Yes. We adapt to your environment — cloud provider, existing APIs, internal tools. We don't lock you into proprietary infrastructure." },
+
     ],
     modelsTag: "Engagement models",
-    modelsTitle: "Two ways to work together.",
-    faqTitle: "Common questions.",
+    modelsTitle: "Two ways to work together",
+    faqTitle: "Domande frequenti",
     cta: "Start a project",
   },
   it: {
-    hero: { tag: "Come lavoriamo", title: "Il tuo progetto.\nIl nostro motore.", subtitle: "Ci integriamo nel tuo team o prendiamo piena responsabilità — dal concept alla produzione, in settimane." },
+    hero: { tag: "Come lavoriamo", title: "Il tuo progetto.\nIl nostro motore.", subtitle: "Ci integriamo nel tuo team o prendiamo piena responsabilità dal concept alla produzione, in settimane." },
     steps: [
       { num: "01", name: "Concept", title: "Definire l'opportunità", summary: "Analizziamo il tuo contesto di business, identifichiamo le opportunità AI ad alto impatto e definiamo insieme un perimetro chiaro.", outputs: ["Mappa delle opportunità AI", "Project brief", "Metriche di successo"] },
       { num: "02", name: "Prototype", title: "Costruire veloce, imparare più veloce", summary: "Prototipi funzionanti testati con dati reali, modelli reali e il feedback del tuo team prima di scalare.", outputs: ["Prototipo funzionante", "Report di validazione", "Piano di iterazione"] },
@@ -51,19 +51,19 @@ const fallback = {
       { num: "04", name: "Deliver", title: "Rilasciare, monitorare, iterare", summary: "Consegniamo, monitoriamo e iteriamo. Handover completo o gestione continuativa — scegli il modello che funziona per te.", outputs: ["Deploy in produzione", "Setup monitoring", "Handover o retainer"] },
     ],
     models: [
-      { title: "Total Outsourcing", desc: "Siamo proprietari dell'intero progetto — concept, design, engineering e delivery. Tu definisci gli obiettivi, noi costruiamo la soluzione.", ideal: "Ideale quando hai bisogno di velocità e non hai un team AI interno.", tags: ["Full ownership", "Team dedicato", "End-to-end"] },
-      { title: "Co-sourcing", desc: "Ci integriamo nel tuo team — portando expertise AI mentre tu mantieni il controllo e la conoscenza interna.", ideal: "Ideale quando hai risorse interne e vuoi costruire capacità AI durature.", tags: ["Team embedded", "Knowledge transfer", "Ownership condivisa"] },
+      { title: "Total Outsourcing", desc: "Siamo responsabili dell'intero progetto: concept, design, engineering e delivery. Tu definisci gli obiettivi, noi costruiamo la soluzione.", ideal: "Ideale quando hai bisogno di velocità e non hai un team AI interno.", tags: ["Full ownership", "Team dedicato", "End-to-end"] },
+      { title: "Co-sourcing", desc: "Ci integriamo nel tuo team, portando expertise AI mentre tu mantieni il controllo e la conoscenza interna.", ideal: "Ideale quando hai risorse interne e vuoi costruire capacità AI durature.", tags: ["Team embedded", "Knowledge transfer", "Ownership condivisa"] },
     ],
     faqs: [
       { question: "Quanto dura un progetto tipico?", answer: "La maggior parte dei progetti va dal kick-off al primo deploy in 6–12 settimane. Puntiamo sempre a un MVP funzionante entro le prime 4 settimane." },
       { question: "Serve un team AI interno per lavorare con voi?", answer: "No. In total outsourcing è sufficiente fornire contesto di business e feedback. In co-sourcing il tuo team partecipa attivamente." },
-      { question: "Come gestite privacy e riservatezza dei dati?", answer: "Firmiamo NDA prima di qualsiasi kick-off. I dati vengono elaborati solo su infrastruttura concordata e seguiamo le linee guida GDPR." },
+
       { question: "Cosa succede dopo la consegna?", answer: "Offriamo retainer di monitoring e iterazione continuativa, più un handover strutturato con documentazione e formazione." },
-      { question: "Riuscite a lavorare con il nostro stack esistente?", answer: "Sì. Ci adattiamo al vostro ambiente — cloud provider, API esistenti, tool interni. Non vi leghiamo a infrastrutture proprietarie." },
+
     ],
     modelsTag: "Modelli di ingaggio",
-    modelsTitle: "Due modi di lavorare insieme.",
-    faqTitle: "Domande frequenti.",
+    modelsTitle: "Due modi di lavorare insieme",
+    faqTitle: "Domande frequenti",
     cta: "Inizia un progetto",
   },
 };

@@ -23,7 +23,7 @@ const fallback = {
     hero: {
       tag: "AI Enablement for SMEs",
       title: "Not just products.\nPeople enabled.",
-      subtitle: "Generative AI changes the way people work — but only if they know how to use it. We partner with Italian SMEs on their AI adoption journey.",
+      subtitle: "Generative AI changes the way people work, but only if they know how to use it. We partner with Italian SMEs on their AI adoption journey.",
     },
     intro: {
       title: "The real bottleneck isn't technology. It's people.",
@@ -69,7 +69,7 @@ const fallback = {
       { question: "Are these programs only for technical teams?", answer: "No — they're designed for non-technical people. The goal is to make AI usable for everyone in the company, from sales reps to finance managers. Technical depth is adjusted based on the audience." },
       { question: "Do you deliver programs remotely or in person?", answer: "Both. Most clients combine in-person kick-off workshops with follow-up sessions delivered remotely. We adapt to your team's location and availability." },
       { question: "How many people can participate at once?", answer: "Workshops work best with 8–20 participants. For larger organizations, we run parallel sessions or cascade the program through team leads who become internal trainers." },
-      { question: "What tools do you cover in the training?", answer: "We cover the tools most relevant to your team's work — typically Claude, ChatGPT, Gemini, Perplexity, and sector-specific tools. We don't promote one tool over another; we teach your team to evaluate and choose." },
+      { question: "What tools do you cover in the training?", answer: "Our programs currently focus on Claude by Anthropic, which we consider the most complete and reliable tool for business use. As the landscape evolves, we evaluate and integrate new tools — always with a focus on what creates real value for your team." },
       { question: "How do you measure the impact of the program?", answer: "We define success metrics at the start with you — adoption rates, time saved on specific tasks, quality of AI outputs. For ongoing programs, we track these monthly and report back." },
     ],
     sectorsLabel: "Who it's for",
@@ -80,9 +80,9 @@ const fallback = {
       body: "The European AI Act came into force in August 2024 and is being rolled out in phases through 2027. It's the world's first comprehensive AI regulation — and it directly affects any company that uses, deploys, or develops AI systems within the EU.",
       disclaimer: "This section provides general information only and does not constitute legal advice. We recommend consulting a qualified legal professional for compliance guidance specific to your situation.",
       obligations: [
-        { label: "August 2025", title: "Prohibited AI systems banned", desc: "AI systems categorized as unacceptable risk (social scoring, real-time biometric surveillance) become illegal." },
-        { label: "August 2026", title: "High-risk AI rules apply", desc: "Strict requirements for high-risk AI in HR, credit scoring, education, and critical infrastructure: transparency, human oversight, documentation." },
-        { label: "August 2027", title: "Full enforcement", desc: "All remaining provisions apply, including rules for general-purpose AI models like GPT-4 and Claude." },
+        { label: "February 2025", title: "Prohibited AI systems banned", desc: "AI systems categorized as unacceptable risk — social scoring, real-time biometric surveillance — became illegal. This phase is already in effect." },
+        { label: "August 2026", title: "High-risk AI rules now active", desc: "Requirements for high-risk AI in HR, credit scoring, education, and critical infrastructure are now in force: transparency, human oversight, full documentation." },
+        { label: "August 2027", title: "Full enforcement", desc: "All remaining provisions apply, including rules for general-purpose AI models. This is the next major deadline." },
       ],
       smeNote: "Most SMEs fall into the limited-risk or minimal-risk categories — but all companies using AI must ensure basic transparency obligations: users must know when they are interacting with AI.",
       howWeHelp: "Our AI Enablement programs build the internal literacy your team needs to use AI responsibly and in compliance with the Act — from understanding what counts as high-risk AI to implementing the transparency requirements that apply to your use cases.",
@@ -95,7 +95,7 @@ const fallback = {
     hero: {
       tag: "AI Enablement per le PMI",
       title: "Non solo prodotti.\nPersone abilitate.",
-      subtitle: "L'AI generativa cambia il modo in cui si lavora — ma solo se le persone sanno usarla. Affianchiamo le PMI italiane nel percorso di adozione.",
+      subtitle: "L'AI generativa cambia il modo in cui si lavora, ma solo se le persone sanno usarla. Affianchiamo le PMI italiane nel percorso di adozione.",
     },
     intro: {
       title: "Il vero collo di bottiglia non è la tecnologia. Sono le persone.",
@@ -141,7 +141,7 @@ const fallback = {
       { question: "Questi programmi sono solo per team tecnici?", answer: "No — sono progettati per persone non tecniche. L'obiettivo è rendere l'AI usabile da tutti in azienda, dal commerciale al responsabile finance. La profondità tecnica viene calibrata in base al pubblico." },
       { question: "I programmi vengono erogati in presenza o da remoto?", answer: "Entrambi. La maggior parte dei clienti combina workshop di kick-off in presenza con sessioni di follow-up da remoto. Ci adattiamo alla sede e alla disponibilità del tuo team." },
       { question: "Quante persone possono partecipare contemporaneamente?", answer: "I workshop funzionano meglio con 8–20 partecipanti. Per organizzazioni più grandi, gestiamo sessioni parallele o cassiamo il programma attraverso i team lead che diventano formatori interni." },
-      { question: "Quali tool coprite nella formazione?", answer: "Copriamo i tool più rilevanti per il lavoro del tuo team — tipicamente Claude, ChatGPT, Gemini, Perplexity e tool specifici per settore. Non promuoviamo un tool rispetto a un altro: insegniamo al tuo team a valutare e scegliere." },
+      { question: "Quali tool coprite nella formazione?", answer: "I nostri programmi si concentrano attualmente su Claude di Anthropic, che consideriamo lo strumento più completo e affidabile per l'uso in azienda. Con l'evoluzione del panorama valutiamo e integriamo nuovi tool, sempre con attenzione a ciò che crea valore reale per il tuo team." },
       { question: "Come misurate l'impatto del programma?", answer: "Definiamo le metriche di successo all'inizio con te — tassi di adozione, tempo risparmiato su task specifici, qualità degli output AI. Per i programmi continuativi, le monitoriamo mensilmente e rendicontiamo." },
     ],
     sectorsLabel: "A chi è rivolto",
@@ -152,9 +152,9 @@ const fallback = {
       body: "Il Regolamento europeo sull'AI (EU AI Act) è entrato in vigore nell'agosto 2024 e viene applicato in fasi fino al 2027. È la prima normativa completa sull'AI al mondo — e riguarda direttamente qualsiasi azienda che usa, distribuisce o sviluppa sistemi AI nell'Unione Europea.",
       disclaimer: "Questa sezione fornisce informazioni di carattere generale e non costituisce consulenza legale. Ti raccomandiamo di consultare un professionista legale qualificato per una guida alla compliance specifica alla tua situazione.",
       obligations: [
-        { label: "Agosto 2025", title: "Sistemi AI vietati", desc: "I sistemi AI classificati come rischio inaccettabile (social scoring, sorveglianza biometrica in tempo reale) diventano illegali." },
-        { label: "Agosto 2026", title: "Regole per AI ad alto rischio", desc: "Requisiti stringenti per AI ad alto rischio in HR, credit scoring, istruzione e infrastrutture critiche: trasparenza, supervisione umana, documentazione." },
-        { label: "Agosto 2027", title: "Enforcement completo", desc: "Si applicano tutte le disposizioni restanti, incluse le regole per i modelli AI general-purpose come GPT-4 e Claude." },
+        { label: "Febbraio 2025", title: "Sistemi AI vietati", desc: "I sistemi AI classificati come rischio inaccettabile — social scoring, sorveglianza biometrica in tempo reale — sono diventati illegali. Questa fase è già operativa." },
+        { label: "Agosto 2026", title: "Regole per AI ad alto rischio ora in vigore", desc: "I requisiti per AI ad alto rischio in HR, credit scoring, istruzione e infrastrutture critiche sono ora operativi: trasparenza, supervisione umana, documentazione completa." },
+        { label: "Agosto 2027", title: "Enforcement completo", desc: "Si applicano tutte le disposizioni restanti. È la prossima scadenza chiave per le aziende." },
       ],
       smeNote: "La maggior parte delle PMI rientra nelle categorie a rischio limitato o minimo — ma tutte le aziende che usano AI devono garantire obblighi base di trasparenza: gli utenti devono sapere quando interagiscono con un sistema AI.",
       howWeHelp: "I nostri programmi di AI Enablement costruiscono la cultura interna necessaria per usare l'AI in modo responsabile e conforme all'AI Act — dalla comprensione di cosa costituisce AI ad alto rischio all'implementazione dei requisiti di trasparenza applicabili ai vostri use case.",
@@ -268,7 +268,7 @@ export default async function AIEnablementPage({ params }: { params: Promise<{ l
         <div style={{ maxWidth: "var(--container)", margin: "0 auto" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1.5rem" }}>
             <div className="section-tag" style={{ margin: 0 }}>{f.aiAct.tag}</div>
-            <span style={{ fontSize: "0.65rem", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase", color: "#b45309", background: "#fef3c7", border: "1px solid #fcd34d", padding: "0.3rem 0.75rem", borderRadius: "var(--radius-pill)" }}>
+            <span style={{ fontSize: "0.65rem", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase", color: "#15803d", background: "#f0fdf4", border: "1px solid rgba(22,163,74,0.25)", padding: "0.3rem 0.75rem", borderRadius: "var(--radius-pill)" }}>
               {l === "it" ? "In vigore" : "In force"}
             </span>
           </div>
@@ -280,7 +280,7 @@ export default async function AIEnablementPage({ params }: { params: Promise<{ l
               <p style={{ fontSize: "0.93rem", color: "var(--light-text-sec)", lineHeight: 1.75, fontWeight: 300, marginBottom: "1.5rem" }}>
                 {f.aiAct.body}
               </p>
-              <div style={{ padding: "1rem 1.25rem", borderRadius: "var(--radius-sm)", background: "#fffbeb", border: "1px solid #fcd34d", fontSize: "0.78rem", color: "#92400e", lineHeight: 1.6 }}>
+              <div style={{ padding: "1rem 1.25rem", borderRadius: "var(--radius-sm)", background: "#f0fdf4", border: "1px solid rgba(22,163,74,0.25)", fontSize: "0.78rem", color: "#166534", lineHeight: 1.6 }}>
                 ⚠ {f.aiAct.disclaimer}
               </div>
             </div>

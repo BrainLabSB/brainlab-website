@@ -23,11 +23,11 @@ interface DomainsPageData {
 
 const fallback = {
   en: {
-    hero: { tag: "Application domains", title: "Generative AI,\napplied where it matters.", subtitle: "We build across industries — wherever generative AI can create real competitive advantage." },
+    hero: { tag: "Application domains", title: "Generative AI,\napplied where it matters.", subtitle: "We build across industries, wherever generative AI can create real competitive advantage." },
     domains: [
       {
         title: "Sales & Marketing",
-        description: "Generative AI is rewriting the rules of B2B and B2C growth. We build AI agents that handle lead generation, content production at scale, campaign optimization, and customer intelligence — moving from manual effort to systematic, measurable outcomes. From automated outreach sequences to personalized customer journeys powered by LLMs, we build systems that compound over time.",
+        description: "Generative AI is rewriting the rules of B2B and B2C growth. We build AI agents that handle lead generation, content production at scale, campaign optimization, and customer intelligence: from manual effort to systematic, measurable outcomes. From automated outreach sequences to personalized customer journeys powered by LLMs, we build systems that compound over time.",
         useCases: ["AI-powered lead qualification and scoring", "Automated personalized outreach at scale", "Content generation for SEO, ads, and email", "Customer segmentation and churn prediction", "Sales copilot for CRM enrichment and follow-up", "Campaign optimization with real-time feedback loops"],
         tools: ["Claude", "Gemini", "OpenAI GPT-4o", "LangChain", "HubSpot API", "Google Ads API", "Pinecone", "n8n"],
         tags: ["Content generation", "Lead scoring", "Sales copilot", "Campaign AI"],
@@ -41,43 +41,43 @@ const fallback = {
       },
       {
         title: "Operations & Process",
-        description: "The most valuable AI applications are often internal — tools that make your team dramatically more effective. We build workflow automation, intelligent routing systems, knowledge bases, and AI copilots that reduce friction in daily operations. Whether it's a RAG-powered assistant trained on your company docs or an intelligent ticket triage system, we build tools that teams actually use.",
+        description: "The most valuable AI applications are often internal: tools that make your team dramatically more effective. We build workflow automation, intelligent routing systems, knowledge bases, and AI copilots that reduce friction in daily operations. Whether it's a RAG-powered assistant trained on your company docs or an intelligent ticket triage system, we build tools that teams actually use.",
         useCases: ["RAG-powered internal knowledge assistant", "Intelligent ticket routing and triage", "Automated workflow orchestration", "Meeting summarization and action extraction", "HR onboarding and policy Q&A bot", "Supply chain monitoring with AI alerts"],
         tools: ["Claude", "Gemini", "OpenAI GPT-4o", "LangChain", "Pinecone", "Supabase", "n8n", "Slack API"],
         tags: ["Workflow AI", "Knowledge base", "Internal tools", "RAG"],
       },
       {
         title: "Product & SaaS",
-        description: "Building AI-native products requires a different approach than adding AI features to existing software. We design and build from scratch — validating the market, architecting the system, and shipping production-ready MVPs. We treat your product as if it were ours: obsessing over user experience, performance, and scalability from day one.",
+        description: "Building AI-native products requires a different approach than adding AI features to existing software. We design and build from scratch — validating the market, architecting the system, and shipping production-ready MVPs. We treat your product as if it were ours, obsessing over user experience, performance, and scalability from day one.",
         useCases: ["AI-native SaaS MVP from zero to launch", "LLM integration in existing product", "Intelligent search and recommendation engines", "Conversational UI and chatbot products", "AI-powered analytics and insights features", "Multi-tenant AI infrastructure design"],
         tools: ["Claude", "Gemini", "OpenAI GPT-4o", "Next.js", "Supabase", "LangChain", "Stripe", "Vercel"],
         tags: ["MVP", "Product design", "LLM integration", "Scale"],
       },
     ],
     useCasesLabel: "Use cases",
-    toolsLabel: "Tools & stack",
+    toolsLabel: "Tool utilizzati",
     cta: "Start a project",
   },
   it: {
-    hero: { tag: "Ambiti applicativi", title: "AI generativa,\ndove conta davvero.", subtitle: "Costruiamo in tutti i settori — ovunque l'AI generativa crei un vantaggio competitivo reale." },
+    hero: { tag: "Ambiti applicativi", title: "AI generativa,\ndove conta davvero.", subtitle: "Costruiamo in tutti i settori, ovunque l'AI generativa crei un vantaggio competitivo reale." },
     domains: [
       {
         title: "Sales & Marketing",
-        description: "L'AI generativa sta riscrivendo le regole della crescita B2B e B2C. Costruiamo agenti AI che gestiscono lead generation, produzione di contenuti in scala, ottimizzazione delle campagne e customer intelligence — passando dall'effort manuale a outcome sistematici e misurabili. Dall'outreach automatizzato ai customer journey personalizzati da LLM, costruiamo sistemi che si compongono nel tempo.",
+        description: "L'AI generativa sta riscrivendo le regole della crescita B2B e B2C. Costruiamo agenti AI che gestiscono lead generation, produzione di contenuti in scala, ottimizzazione delle campagne e customer intelligence: dall'effort manuale a outcome sistematici e misurabili. Dall'outreach automatizzato ai customer journey personalizzati da LLM, costruiamo sistemi che si compongono nel tempo.",
         useCases: ["Qualificazione e scoring dei lead con AI", "Outreach personalizzato automatizzato in scala", "Generazione di contenuti per SEO, ads ed email", "Segmentazione clienti e previsione churn", "Sales copilot per arricchimento CRM e follow-up", "Ottimizzazione campagne con feedback loop in tempo reale"],
         tools: ["Claude", "Gemini", "OpenAI GPT-4o", "LangChain", "HubSpot API", "Google Ads API", "Pinecone", "n8n"],
         tags: ["Content generation", "Lead scoring", "Sales copilot", "Campaign AI"],
       },
       {
         title: "Finance & Risk",
-        description: "Le operazioni finanziarie generano enormi volumi di dati non strutturati — contratti, report, filing normativi, audit trail. Costruiamo sistemi AI che estraggono, classificano e analizzano questi dati automaticamente, riducendo il tempo di revisione manuale e migliorando la precisione. Dall'automazione della compliance ai dashboard di rischio intelligenti, portiamo AI production-grade nei workflow finanziari.",
+        description: "Le operazioni finanziarie generano enormi volumi di dati non strutturati: contratti, report, filing normativi, audit trail. Costruiamo sistemi AI che estraggono, classificano e analizzano questi dati automaticamente, riducendo il tempo di revisione manuale e migliorando la precisione. Dall'automazione della compliance ai dashboard di rischio intelligenti, portiamo AI production-grade nei workflow finanziari.",
         useCases: ["Estrazione automatizzata da contratti e fatture", "Monitoraggio compliance normativa e alerting", "Analisi del rischio e portfolio intelligence", "Report finanziari e sommari AI-powered", "Rilevamento frodi e identificazione anomalie", "Elaborazione documenti KYC/AML"],
         tools: ["Claude", "Gemini", "OpenAI GPT-4o", "Azure Document Intelligence", "LangChain", "Python", "PostgreSQL", "Power BI"],
         tags: ["Document AI", "Compliance", "Risk analysis", "Reporting"],
       },
       {
         title: "Operations & Process",
-        description: "Le applicazioni AI più preziose sono spesso interne — strumenti che rendono il tuo team drasticamente più efficace. Costruiamo automazione dei workflow, sistemi di routing intelligente, knowledge base e AI copilot che riducono l'attrito nelle operazioni quotidiane. Che sia un assistente RAG addestrato sui tuoi documenti aziendali o un sistema di triage ticket intelligente, costruiamo tool che i team usano davvero.",
+        description: "Le applicazioni AI più preziose sono spesso quelle interne: strumenti che rendono il tuo team drasticamente più efficace. Costruiamo automazione dei workflow, sistemi di routing intelligente, knowledge base e AI copilot che riducono l'attrito nelle operazioni quotidiane. Che sia un assistente RAG addestrato sui documenti aziendali o un sistema di triage ticket intelligente, costruiamo tool che i team usano davvero.",
         useCases: ["Assistente knowledge interno RAG-powered", "Routing e triage ticket intelligente", "Orchestrazione workflow automatizzata", "Sintesi riunioni ed estrazione azioni", "Bot Q&A per HR, onboarding e policy", "Monitoring supply chain con alert AI"],
         tools: ["Claude", "Gemini", "OpenAI GPT-4o", "LangChain", "Pinecone", "Supabase", "n8n", "Slack API"],
         tags: ["Workflow AI", "Knowledge base", "Internal tools", "RAG"],
@@ -91,7 +91,7 @@ const fallback = {
       },
     ],
     useCasesLabel: "Casi d'uso",
-    toolsLabel: "Tool e stack",
+    toolsLabel: "Tool utilizzati",
     cta: "Inizia un progetto",
   },
 };
@@ -224,8 +224,8 @@ export default async function AmbitiPage({ params }: { params: Promise<{ locale:
           </h2>
           <p style={{ fontSize: "1rem", color: "var(--dark-text-sec)", lineHeight: 1.65, fontWeight: 300, maxWidth: 520, margin: "0 auto 2.5rem" }}>
             {l === "it"
-              ? "Raccontaci il tuo contesto — valutiamo insieme dove l'AI generativa può creare il massimo impatto."
-              : "Tell us your context — we'll evaluate together where generative AI can create the most impact."}
+              ? "Raccontaci il tuo contesto e valutiamo insieme dove l'AI generativa può creare il massimo impatto."
+              : "Tell us your context and we'll evaluate together where generative AI can create the most impact."}
           </p>
           <Link href="#contatti" className="btn-primary">
             {l === "it" ? "Inizia un progetto" : "Start a project"}

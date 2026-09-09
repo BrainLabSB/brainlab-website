@@ -20,19 +20,19 @@ const fallback = {
     hero: {
       tag: "About us",
       title: "AI-first.\nBy design.",
-      subtitle: "We are a generative AI company based in Milan. We build AI projects end-to-end — in total outsourcing or co-sourcing with our clients' teams.",
+      subtitle: "We are a generative AI company based in Milan. We build AI projects end-to-end, in total outsourcing or co-sourcing with our clients' teams.",
     },
     mission: {
       title: "We exist to make AI real for businesses.",
-      p1: "Brainlab is a generative AI company based in Milan. We develop AI projects end-to-end — in total outsourcing or co-sourcing with our clients' teams. Every engagement produces working software that delivers measurable business impact.",
-      p2: "We work across industries — from sales & marketing to finance and operations — bringing deep expertise in LLMs, prompt engineering, AI agents, and production-grade AI systems. We don't build demos: we build products that companies rely on.",
-      p3: "Brainlab is legally registered as a Società Benefit (S.B.) under Italian law — a corporate form that requires us to pursue both profit and a positive impact on society and the environment. This isn't a marketing badge: it's a statutory obligation written into our articles of association, reviewed annually, and reported publicly. For us it means that every AI project we take on must be technically sound, ethically considered, and genuinely useful. We don't build systems that exploit, deceive, or concentrate power unfairly — and we can't, by law.",
+      p1: "Brainlab is a generative AI company based in Milan. We develop AI projects end-to-end, in total outsourcing or co-sourcing with our clients' teams. Every engagement produces working software that delivers measurable business impact.",
+      p2: "We work across industries, from sales & marketing to finance and operations, bringing deep expertise in LLMs, prompt engineering, AI agents, and production-grade AI systems. We don't build demos: we build products that companies rely on.",
+      p3: "Brainlab is legally registered as a Società Benefit (S.B.) under Italian law: a corporate form that requires us to pursue both profit and a positive impact on society and the environment. This isn't a marketing badge: it's a statutory obligation written into our articles of association, reviewed annually and reported publicly. For us it means that every AI project we take on must be technically sound, ethically considered, and genuinely useful. We don't build systems that exploit, deceive, or concentrate power unfairly, and we can't, by law.",
     },
     values: [
       { title: "Ship fast", desc: "Working software over perfect plans. We measure progress in weeks and deliverables, not slides and meetings. Velocity is a feature." },
       { title: "Ship fast", desc: "Working software over perfect plans. Weeks, not quarters. We ship an MVP in the first 4 weeks or we revisit the scope." },
       { title: "Measure everything", desc: "If we can't define what success looks like before we start, we don't start. Every project begins with a clear metric and ends with a result we can point to." },
-      { title: "Stay technical", desc: "No slides without code. Everyone on the team builds, tests, and ships. We stay close to the work — always." },
+      { title: "Stay technical", desc: "No slides without code. Everyone on the team builds, tests, and ships. We stay close to the work, always." },
       { title: "Think product", desc: "Technology is the means. The product and its users are the end. We think in user journeys, not model architectures." },
     ],
     manifesto: [
@@ -53,18 +53,18 @@ const fallback = {
     hero: {
       tag: "Chi siamo",
       title: "AI-first.\nBy design.",
-      subtitle: "Siamo un'azienda di AI generativa con sede a Milano. Sviluppiamo progetti AI end-to-end — in total outsourcing o co-sourcing con i team dei clienti.",
+      subtitle: "Siamo un'azienda di AI generativa con sede a Milano. Sviluppiamo progetti AI end-to-end, in total outsourcing o co-sourcing con i team dei clienti.",
     },
     mission: {
       title: "Esistiamo per rendere l'AI reale per le imprese.",
-      p1: "Brainlab è un'azienda di AI generativa con sede a Milano. Sviluppiamo progetti AI end-to-end — in total outsourcing o co-sourcing con i team dei clienti. Ogni ingaggio produce software funzionante che genera impatto di business misurabile.",
-      p2: "Lavoriamo in tutti i settori — dalle vendite e marketing alla finanza e alle operations — portando deep expertise in LLM, prompt engineering, AI agent e sistemi AI production-grade. Non costruiamo demo: costruiamo prodotti su cui le aziende si appoggiano davvero.",
-      p3: "Brainlab è iscritta come Società Benefit (S.B.) ai sensi della legge italiana — una forma societaria che ci obbliga a perseguire sia il profitto sia un impatto positivo sulla società e sull'ambiente. Non è un badge di marketing: è un obbligo statutario scritto nel nostro atto costitutivo, verificato annualmente e rendicontato pubblicamente. Per noi significa che ogni progetto AI che accettiamo deve essere tecnicamente solido, eticamente considerato e genuinamente utile. Non costruiamo sistemi che sfruttano, ingannano o concentrano il potere in modo scorretto — e per legge non possiamo farlo.",
+      p1: "Brainlab è un'azienda di AI generativa con sede a Milano. Sviluppiamo progetti AI end-to-end, in total outsourcing o co-sourcing con i team dei clienti. Ogni ingaggio produce software funzionante che genera impatto di business misurabile.",
+      p2: "Lavoriamo in tutti i settori, dalle vendite e marketing alla finanza e alle operations, portando deep expertise in LLM, prompt engineering, AI agent e sistemi AI production-grade. Non costruiamo demo: costruiamo prodotti su cui le aziende si appoggiano davvero.",
+      p3: "Brainlab è iscritta come Società Benefit (S.B.) ai sensi della legge italiana: una forma societaria che ci obbliga a perseguire sia il profitto sia un impatto positivo sulla società e sull'ambiente. Non è un badge di marketing: è un obbligo statutario scritto nel nostro atto costitutivo, verificato annualmente e rendicontato pubblicamente. Per noi significa che ogni progetto AI che accettiamo deve essere tecnicamente solido, eticamente considerato e genuinamente utile. Non costruiamo sistemi che sfruttano, ingannano o concentrano il potere in modo scorretto, e per legge non possiamo farlo.",
     },
     values: [
       { title: "Ship fast", desc: "Software funzionante prima dei piani perfetti. Misuriamo il progresso in settimane e deliverable, non in slide e riunioni. La velocità è una feature." },
       { title: "Measure everything", desc: "Se non riusciamo a definire come si misura il successo prima di iniziare, non iniziamo. Ogni progetto parte da una metrica chiara e finisce con un risultato che possiamo mostrare." },
-      { title: "Stay technical", desc: "Niente slide senza codice. Tutti nel team costruiscono, testano e rilasciano. Restiamo vicini al lavoro — sempre." },
+      { title: "Stay technical", desc: "Niente slide senza codice. Tutti nel team costruiscono, testano e rilasciano. Restiamo vicini al lavoro, sempre." },
       { title: "Think product", desc: "La tecnologia è il mezzo. Il prodotto e i suoi utenti sono il fine. Pensiamo in user journey, non in architetture di modelli." },
     ],
     manifesto: [
@@ -197,13 +197,13 @@ export default async function AziendaPage({ params }: { params: Promise<{ locale
             </h2>
             <p style={{ fontSize: "0.93rem", color: "var(--light-text-sec)", lineHeight: 1.8, fontWeight: 300, marginBottom: "1.25rem" }}>
               {l === "it"
-                ? "In Italia, la forma giuridica Società Benefit (S.B.) non è un certificato volontario — è una modifica statutaria che vincola legalmente l'azienda a perseguire, accanto all'obiettivo economico, uno o più obiettivi di beneficio comune. L'impatto viene misurato annualmente con standard verificabili e rendicontato in una relazione pubblica."
-                : "In Italy, the Società Benefit (S.B.) legal form is not a voluntary certificate — it's a statutory amendment that legally binds the company to pursue, alongside its economic objective, one or more common benefit goals. Impact is measured annually against verifiable standards and reported in a public disclosure."}
+                ? "In Italia, la forma giuridica Società Benefit (S.B.) non è un certificato volontario : è una modifica statutaria che vincola legalmente l'azienda a perseguire, accanto all'obiettivo economico, uno o più obiettivi di beneficio comune. L'impatto viene misurato annualmente con standard verificabili e rendicontato in una relazione pubblica."
+                : "In Italy, the Società Benefit (S.B.) legal form is not a voluntary certificate : it's a statutory amendment that legally binds the company to pursue, alongside its economic objective, one or more common benefit goals. Impact is measured annually against verifiable standards and reported in a public disclosure."}
             </p>
             <p style={{ fontSize: "0.93rem", color: "var(--light-text-sec)", lineHeight: 1.8, fontWeight: 300 }}>
               {l === "it"
-                ? "Per Brainlab questo si traduce in un principio operativo concreto: non accettiamo progetti che usano l'AI per ingannare utenti, amplificare disinformazione, discriminare persone o concentrare potere in modo scorretto. Non è una policy interna modificabile — è scritto nel nostro atto costitutivo."
-                : "For Brainlab this translates into a concrete operating principle: we do not accept projects that use AI to deceive users, amplify disinformation, discriminate against people, or concentrate power unfairly. This is not an internal policy that can be changed — it is written into our articles of association."}
+                ? "Per Brainlab questo si traduce in un principio operativo concreto: non accettiamo progetti che usano l'AI per ingannare utenti, amplificare disinformazione, discriminare persone o concentrare potere in modo scorretto. Non è una policy interna modificabile: è scritto nel nostro atto costitutivo."
+                : "For Brainlab this translates into a concrete operating principle: we do not accept projects that use AI to deceive users, amplify disinformation, discriminate against people, or concentrate power unfairly. This is not an internal policy that can be changed: it is written into our articles of association."}
             </p>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -226,7 +226,7 @@ export default async function AziendaPage({ params }: { params: Promise<{ locale
               {
                 icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>,
                 label: l === "it" ? "Impatto positivo" : "Positive impact",
-                desc: l === "it" ? "Ogni progetto deve generare valore reale e misurabile, non solo per il cliente ma per il contesto in cui opera." : "Every project must generate real, measurable value — not just for the client but for the context in which it operates.",
+                desc: l === "it" ? "Ogni progetto deve generare valore reale e misurabile, non solo per il cliente ma per il contesto in cui opera." : "Every project must generate real, measurable value, not just for the client but for the context in which it operates.",
               },
             ].map((item, i) => (
               <div key={i} style={{ display: "flex", gap: "1rem", alignItems: "flex-start", padding: "1.25rem 1.5rem", borderRadius: "var(--radius-sm)", border: "1px solid var(--light-border)", background: "var(--light-card)" }}>
@@ -243,27 +243,6 @@ export default async function AziendaPage({ params }: { params: Promise<{ locale
         </div>
       </section>
 
-      {/* ── MANIFESTO ── */}
-      <section className="section-light">
-        <div style={{ maxWidth: 760, margin: "0 auto" }}>
-          <div className="section-tag">{f.manifestoTag}</div>
-          <h2 style={{ fontSize: "clamp(1.6rem,2.5vw,2.2rem)", fontWeight: 700, letterSpacing: "-0.03em", color: "var(--light-text)", marginBottom: "3rem", lineHeight: 1.15 }}>
-            {l === "it" ? "Cosa crediamo davvero." : "What we actually believe."}
-          </h2>
-          <ol style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0" }}>
-            {manifesto.map((item, i) => (
-              <li key={i} style={{ display: "grid", gridTemplateColumns: "2.5rem 1fr", gap: "1.5rem", alignItems: "start", padding: "1.5rem 0", borderBottom: i < manifesto.length - 1 ? "1px solid var(--light-border)" : "none" }}>
-                <span style={{ fontSize: "0.65rem", fontWeight: 800, color: "var(--primary)", opacity: 0.5, paddingTop: "0.2rem", fontVariantNumeric: "tabular-nums" }}>
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <p style={{ fontSize: "1.05rem", fontWeight: 500, color: "var(--light-text)", lineHeight: 1.5, letterSpacing: "-0.01em" }}>
-                  {item}
-                </p>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
 
       {/* ── CTA ── */}
       <section className="section-dark" style={{ textAlign: "center" }}>
@@ -273,8 +252,8 @@ export default async function AziendaPage({ params }: { params: Promise<{ locale
           </h2>
           <p style={{ fontSize: "0.95rem", color: "var(--dark-text-sec)", lineHeight: 1.7, fontWeight: 300, marginBottom: "2.5rem" }}>
             {l === "it"
-              ? "Che tu abbia un progetto concreto o voglia solo esplorare le possibilità — siamo qui."
-              : "Whether you have a concrete project or just want to explore what's possible — we're here."}
+              ? "Che tu abbia un progetto concreto o voglia solo esplorare le possibilità, siamo qui."
+              : "Whether you have a concrete project or just want to explore what's possible, we're here."}
           </p>
           <Link href="#contatti" className="btn-primary">
             {f.cta}

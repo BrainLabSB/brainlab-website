@@ -1,7 +1,7 @@
 import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ContactSection from "@/components/ContactSection";
+import ConditionalContactSection from "@/components/ConditionalContactSection";
 import RevealObserver from "@/components/RevealObserver";
 import { type Locale, locales } from "@/lib/translations";
 
@@ -40,7 +40,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       )}
       <Header locale={safeLocale} />
       <main>{children}</main>
-      <ContactSection locale={safeLocale} />
+      <ConditionalContactSection locale={safeLocale} />
       <Footer locale={safeLocale} />
       <RevealObserver />
     </>

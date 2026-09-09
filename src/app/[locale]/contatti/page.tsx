@@ -7,7 +7,7 @@ export default async function ContattiPage({ params }: { params: Promise<{ local
   const { locale } = await params;
   const isIt = locale === "it";
   return (
-    <section style={{ minHeight: "100vh", paddingTop: "10rem", paddingBottom: "7rem", background: "var(--dark)", padding: "10rem 3rem 7rem" }}>
+    <section style={{ minHeight: "100vh", background: "var(--dark)", padding: "7rem 3rem 5rem" }}>
       <div style={{ maxWidth: "640px", margin: "0 auto" }}>
         <div style={{ fontSize: "0.65rem", letterSpacing: "0.08em", color: "var(--primary)", marginBottom: "0.75rem", textTransform: "uppercase" }}>
           {isIt ? "Contatti" : "Contact"}
@@ -17,8 +17,8 @@ export default async function ContattiPage({ params }: { params: Promise<{ local
         </h1>
         <p style={{ color: "var(--dark-text-sec)", fontWeight: 300, marginBottom: "3rem", lineHeight: 1.7 }}>
           {isIt
-            ? "Raccontaci il tuo progetto — ti risponderemo entro 24 ore."
-            : "Tell us about your project — we'll get back to you within 24 hours."}
+            ? "Raccontaci il tuo progetto, ti risponderemo entro 24 ore."
+            : "Tell us about your project, we'll get back to you within 24 hours."}
         </p>
         <HubSpotForm portalId="IL_TUO_PORTAL_ID" formId="IL_TUO_FORM_ID" />
       </div>

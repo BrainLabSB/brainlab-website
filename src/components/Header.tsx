@@ -39,8 +39,8 @@ export default function Header({ locale }: HeaderProps) {
     }}>
       {/* Logo */}
       <Link href={`/${locale}`}>
-        <Image src="/logo_color2.png" alt="Brainlab" width={130} height={36}
-          style={{ objectFit: "contain", height: "36px", width: "auto" }} priority />
+        <Image src="/logo_color2.png" alt="Brainlab" width={160} height={44}
+          className="site-logo" style={{ objectFit: "contain", width: "auto" }} priority />
       </Link>
 
       {/* Center links — desktop */}
@@ -114,8 +114,8 @@ export default function Header({ locale }: HeaderProps) {
       )}
 
       <style>{`
-        @media (min-width: 769px) { .nav-mobile-btn { display: none !important; } }
-        @media (max-width: 768px) { .nav-desktop { display: none !important; } }
+        @media (min-width: 769px) { .nav-mobile-btn { display: none !important; } .site-logo { height: 40px !important; } }
+        @media (max-width: 768px) { .nav-desktop { display: none !important; } .site-logo { height: 34px !important; } }
       `}</style>
     </nav>
   );

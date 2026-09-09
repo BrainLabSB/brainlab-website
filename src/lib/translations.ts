@@ -116,7 +116,7 @@ export const home = {
       btn: "Get in touch",
     },
     footer: {
-      copy: "© 2026 Brainlab S.r.l. S.B. — Corso Monforte 2, 20122 Milano",
+      copy: "© 2026 Brain Lab Srl Società Benefit — Corso Monforte 2, 20122 Milano — P.IVA IT11488150969",
     },
   },
 
@@ -212,7 +212,7 @@ export const home = {
       btn: "Contattaci",
     },
     footer: {
-      copy: "© 2026 Brainlab S.r.l. S.B. — Corso Monforte 2, 20122 Milano",
+      copy: "© 2026 Brain Lab Srl Società Benefit — Corso Monforte 2, 20122 Milano — P.IVA IT11488150969",
     },
   },
 } as const;

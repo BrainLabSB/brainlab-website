@@ -28,12 +28,9 @@ export default async function ContattiPage({ params }: { params: Promise<{ local
 
         {/* Dati aziendali */}
         <div style={{ borderTop: "1px solid var(--light-border)", paddingTop: "2.5rem", marginBottom: "2.5rem", display: "flex", flexDirection: "column", gap: "0.5rem", alignItems: "center" }}>
-          <p style={{ fontSize: "0.9rem", fontWeight: 700, color: "var(--light-text)" }}>Brainlab S.B. S.r.l.</p>
+          <p style={{ fontSize: "0.9rem", fontWeight: 700, color: "var(--light-text)" }}>Brain Lab Srl Società Benefit</p>
           <p style={{ fontSize: "0.85rem", color: "var(--light-text-sec)" }}>Corso Monforte 2, 20122 Milano</p>
-          <p style={{ fontSize: "0.85rem", color: "var(--light-text-sec)" }}>
-            <a href="mailto:hello@brainlab.digital" style={{ color: "var(--primary)" }}>hello@brainlab.digital</a>
-          </p>
-          <p style={{ fontSize: "0.85rem", color: "var(--light-text-muted)", marginTop: "0.25rem" }}>P.IVA IT12345678901</p>
+          <p style={{ fontSize: "0.85rem", color: "var(--light-text-muted)" }}>P.IVA IT11488150969 — REA 11488150969</p>
         </div>
 
         {/* Mappa */}

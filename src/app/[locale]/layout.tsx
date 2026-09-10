@@ -20,7 +20,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <>
-      <CookieBanner gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+      <CookieBanner gtmId={process.env.NEXT_PUBLIC_GTM_ID} locale={safeLocale} />
       <Header locale={safeLocale} />
       <main>{children}</main>
       <ConditionalContactSection locale={safeLocale} />

@@ -50,8 +50,42 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
               <p>L'interessato ha diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità e opposizione (artt. 15–21 GDPR). Può inoltre revocare il consenso in qualsiasi momento. Per esercitare tali diritti scrivere a <a href="mailto:info@brainlab.digital" style={{ color: "var(--primary)" }}>info@brainlab.digital</a>. Ha altresì diritto di proporre reclamo all'Autorità Garante per la protezione dei dati personali (www.garanteprivacy.it).</p>
             </div>
             <div>
+
+            <div>
               <h2 style={{ fontSize: "1rem", fontWeight: 700, color: "var(--light-text)", marginBottom: "0.5rem" }}>7. Cookie</h2>
-              <p>Il sito utilizza cookie tecnici necessari al funzionamento e, previo consenso, cookie analitici di terze parti (Google Analytics / GTM). Per maggiori informazioni o per gestire le preferenze è possibile contattarci all'indirizzo indicato al punto 1. La navigazione senza prestare consenso ai cookie non tecnici non comporta limitazioni all'utilizzo del sito.</p>
+              <p style={{ marginBottom: "1.25rem" }}>Il sito utilizza cookie tecnici necessari al funzionamento e, previo consenso, cookie analitici di terze parti (Google Analytics / GTM). Per maggiori informazioni o per gestire le preferenze è possibile contattarci all'indirizzo indicato al punto 1. La navigazione senza prestare consenso ai cookie non tecnici non comporta limitazioni all'utilizzo del sito.</p>
+              <div style={{ overflowX: "auto" }}>
+                <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.82rem" }}>
+                  <thead>
+                    <tr style={{ background: "var(--light-bg)", borderBottom: "2px solid var(--light-border)" }}>
+                      <th style={{ padding: "0.75rem 1rem", textAlign: "left", fontWeight: 700, color: "var(--light-text)" }}>Nome</th>
+                      <th style={{ padding: "0.75rem 1rem", textAlign: "left", fontWeight: 700, color: "var(--light-text)" }}>Tipo</th>
+                      <th style={{ padding: "0.75rem 1rem", textAlign: "left", fontWeight: 700, color: "var(--light-text)" }}>Finalità</th>
+                      <th style={{ padding: "0.75rem 1rem", textAlign: "left", fontWeight: 700, color: "var(--light-text)" }}>Durata</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      { name: "bl_cookie_consent", type: "Tecnico", purpose: "Salva la preferenza cookie dell'utente (accettato/rifiutato)", duration: "Persistente (localStorage)" },
+                      { name: "__hstc", type: "Marketing (HubSpot)", purpose: "Tracciamento visitatori per il CRM HubSpot", duration: "13 mesi" },
+                      { name: "hubspotutk", type: "Marketing (HubSpot)", purpose: "Identifica il visitatore per la deduplicazione dei contatti", duration: "13 mesi" },
+                      { name: "__hssc", type: "Marketing (HubSpot)", purpose: "Traccia le sessioni di navigazione", duration: "30 minuti" },
+                      { name: "__hssrc", type: "Marketing (HubSpot)", purpose: "Determina se l'utente ha riavviato il browser", duration: "Sessione" },
+                      { name: "_ga", type: "Analitico (Google)", purpose: "Distingue gli utenti per Google Analytics", duration: "2 anni" },
+                      { name: "_gid", type: "Analitico (Google)", purpose: "Distingue gli utenti (sessione breve)", duration: "24 ore" },
+                      { name: "_ga_*", type: "Analitico (Google)", purpose: "Mantiene lo stato della sessione per Google Analytics 4", duration: "2 anni" },
+                    ].map((row, i) => (
+                      <tr key={i} style={{ borderBottom: "1px solid var(--light-border)", background: i % 2 === 0 ? "#fff" : "var(--light-bg)" }}>
+                        <td style={{ padding: "0.65rem 1rem", fontFamily: "monospace", fontSize: "0.75rem", color: "var(--light-text)" }}>{row.name}</td>
+                        <td style={{ padding: "0.65rem 1rem", color: "var(--light-text-sec)" }}>{row.type}</td>
+                        <td style={{ padding: "0.65rem 1rem", color: "var(--light-text-sec)" }}>{row.purpose}</td>
+                        <td style={{ padding: "0.65rem 1rem", color: "var(--light-text-sec)", whiteSpace: "nowrap" }}>{row.duration}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
             </div>
           </div>
         ) : (
@@ -81,8 +115,42 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
               <p>You have the right to access, rectify, erase, restrict processing, port your data, and object (Arts. 15–21 GDPR). You may also withdraw consent at any time. To exercise these rights, write to <a href="mailto:info@brainlab.digital" style={{ color: "var(--primary)" }}>info@brainlab.digital</a>. You also have the right to lodge a complaint with the Italian Data Protection Authority (www.garanteprivacy.it).</p>
             </div>
             <div>
+
+            <div>
               <h2 style={{ fontSize: "1rem", fontWeight: 700, color: "var(--light-text)", marginBottom: "0.5rem" }}>7. Cookies</h2>
-              <p>This site uses technical cookies necessary for operation and, with your consent, third-party analytics cookies (Google Analytics / GTM). To manage your preferences or for more information, contact us at the address in section 1. Browsing without consenting to non-technical cookies does not limit your use of the site.</p>
+              <p style={{ marginBottom: "1.25rem" }}>This site uses technical cookies necessary for operation and, with your consent, third-party analytics cookies (Google Analytics / GTM). To manage your preferences or for more information, contact us at the address in section 1. Browsing without consenting to non-technical cookies does not limit your use of the site.</p>
+              <div style={{ overflowX: "auto" }}>
+                <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.82rem" }}>
+                  <thead>
+                    <tr style={{ background: "var(--light-bg)", borderBottom: "2px solid var(--light-border)" }}>
+                      <th style={{ padding: "0.75rem 1rem", textAlign: "left", fontWeight: 700, color: "var(--light-text)" }}>Name</th>
+                      <th style={{ padding: "0.75rem 1rem", textAlign: "left", fontWeight: 700, color: "var(--light-text)" }}>Type</th>
+                      <th style={{ padding: "0.75rem 1rem", textAlign: "left", fontWeight: 700, color: "var(--light-text)" }}>Purpose</th>
+                      <th style={{ padding: "0.75rem 1rem", textAlign: "left", fontWeight: 700, color: "var(--light-text)" }}>Duration</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      { name: "bl_cookie_consent", type: "Technical", purpose: "Stores the user's cookie preference (accepted/rejected)", duration: "Persistent (localStorage)" },
+                      { name: "__hstc", type: "Marketing (HubSpot)", purpose: "Visitor tracking for HubSpot CRM", duration: "13 months" },
+                      { name: "hubspotutk", type: "Marketing (HubSpot)", purpose: "Identifies the visitor for contact deduplication", duration: "13 months" },
+                      { name: "__hssc", type: "Marketing (HubSpot)", purpose: "Tracks browsing sessions", duration: "30 minutes" },
+                      { name: "__hssrc", type: "Marketing (HubSpot)", purpose: "Determines if the user restarted their browser", duration: "Session" },
+                      { name: "_ga", type: "Analytics (Google)", purpose: "Distinguishes users for Google Analytics", duration: "2 years" },
+                      { name: "_gid", type: "Analytics (Google)", purpose: "Distinguishes users (short session)", duration: "24 hours" },
+                      { name: "_ga_*", type: "Analytics (Google)", purpose: "Maintains session state for Google Analytics 4", duration: "2 years" },
+                    ].map((row, i) => (
+                      <tr key={i} style={{ borderBottom: "1px solid var(--light-border)", background: i % 2 === 0 ? "#fff" : "var(--light-bg)" }}>
+                        <td style={{ padding: "0.65rem 1rem", fontFamily: "monospace", fontSize: "0.75rem", color: "var(--light-text)" }}>{row.name}</td>
+                        <td style={{ padding: "0.65rem 1rem", color: "var(--light-text-sec)" }}>{row.type}</td>
+                        <td style={{ padding: "0.65rem 1rem", color: "var(--light-text-sec)" }}>{row.purpose}</td>
+                        <td style={{ padding: "0.65rem 1rem", color: "var(--light-text-sec)", whiteSpace: "nowrap" }}>{row.duration}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
             </div>
           </div>
         )}

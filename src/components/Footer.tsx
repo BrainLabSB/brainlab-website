@@ -12,8 +12,7 @@ export default function Footer({ locale }: { locale: Locale }) {
         <span className="footer-info">{t.copy}</span>
       </div>
       <div className="footer-links">
-        <a href="https://linkedin.com/company/brainlab-digital" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://github.com/brainlab-digital" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/company/brain-lab-disruptive-growing/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <Link href={`/${locale}/privacy`}>Privacy</Link>
       </div>
     </footer>

@@ -114,12 +114,7 @@ export default async function HomePage({ params }: Props) {
 
           </div>
         </div>
-        <div style={{ position: "absolute", bottom: "2.5rem", left: "3rem", fontSize: "0.6rem",
-          color: "var(--dark-text-muted)", letterSpacing: "0.08em", display: "flex", alignItems: "center", gap: "0.75rem" }}>
-          {c.hero.scroll}
-          <span style={{ width: "1px", height: "32px", background: "var(--dark-text-muted)", display: "inline-block", animation: "pulse 2s ease-in-out infinite" }} />
-        </div>
-        <style>{`@keyframes pulse{0%,100%{opacity:0.3}50%{opacity:1}}`}</style>
+<style>{`@keyframes pulse{0%,100%{opacity:0.3}50%{opacity:1}}`}</style>
       </section>
 
       {/* ── MARQUEE ── */}
